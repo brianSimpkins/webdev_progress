@@ -1,0 +1,145 @@
+html, body {
+  width:100%;
+  min-width: 1060px;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  overflow-x: visible;
+  color: #212325;
+  background-color: rgb(200, 200, 200);
+  margin: 0 auto 0 auto;
+  padding: 0;
+}
+
+div{
+  margin:0;
+  vertical-align: center;
+}
+
+header {
+  width: 100%;
+  background: grey;
+}
+
+#navHeader{
+  display: block;
+  margin-top: 0px;
+  width: 100%;
+  height: 95px;
+}
+
+#navBar{
+  float: right;
+}
+
+#siteTitle{
+  display: block;
+  margin: 14px 0px;
+  float: left;
+}
+
+.mainInfo{
+  display:block;
+  padding-top: 10px;
+  padding-left: 2%;
+  margin-bottom: 0px;
+  background: rgba(156, 156, 156, 0.74);
+  height: 700px;
+}
+
+#contactInfo{
+  text-align: center;
+  background: rgba(196, 196, 196, 0.37);
+  height: 200px;
+  width: 100%;
+  margin: 0px;
+  line-height: 200%;
+}
+
+p {
+  line-height: 2;
+}
+  
+a {
+  transition: all 0.5s ease;
+  color:rgb(17, 114, 170);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(221, 132, 16);
+}
+
+h1, h2, h3{
+  padding: 12px;
+  margin: 0px;
+}
+
+
+ul{
+  list-style: none;
+}
+
+#ul_top_hypers li{
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+  font-size: 13pt;
+  margin: 12px 3px;
+  height: 28px;
+}
+
+.li_top_hypers{
+  border-radius: 6px;
+  border: 1px solid;
+  border-color: white;
+  background-image: radial-gradient(rgba(245, 245, 245, 0.199), rgba(245, 245, 245, 0.473));
+}
+
+#ul_top_hypers li a{
+  line-height: 28px;
+  padding: 5px 5px;
+}
+
+#ul_top_hypers #activePage{
+  background-image: radial-gradient(rgba(245, 245, 245, 0.301), rgba(245, 245, 245, 0.733))
+}
+
+#ul_top_hypers{
+  padding-left: 2px;
+}
+
+.a_top_hypers{
+  color: black;
+}
+
+.a_top_hypers:hover{
+  color: white;
+}
+
+#li_resume_download{
+  background: transparent !important;
+  border: none !important;
+  margin: 14px !important;
+}
+
+#a_resume_download{
+ color: rgb(75, 75, 75);
+ padding: 0px !important;
+ font-size: 12pt;
+}
+
+#a_resume_download:hover{
+  color: rgb(20, 20, 20);
+  text-decoration: underline;
+}
+
+#ProfilePic{
+  width:69px;height:93px;
+  margin: 1px;
+  float: left;
+}
+
+#ul_full_width{
+  padding: 0 0;
+}
